@@ -1,0 +1,1 @@
+<?class StaticsController extends controller{      public function __construct(){     parent::Controller();	 $this->loadModel("statics");	 $this->runtimecall();   }      public function index(){     $this->view->display("statics");     }         }?>

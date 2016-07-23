@@ -1,0 +1,30 @@
+body{background:url("images/subtle_freckles-copy.png"); font-family:Cantarell,Candara,Verdana,sans-serif; margin:0;}
+.fullwidth,.thepage,.page-canvas,.parentContainer{width:100%;}
+.parentContainer{height:100px; width:100%; background:url("images/header-bground.gif");}
+.container{width:90%; margin-left:auto; margin-right:auto;}
+.logo,.titie{float:left;}
+.logo{width:200px; height:92px; background:url("images/Ginsenlogo.png") no-repeat; background-position:center center;}
+.title{   color: #2D5020;
+    display: inline-block;
+    font-size: 42px;
+    font-style: italic;
+    margin-left: 11%;
+    padding-top: 24px;}
+.clear{clear:both;}
+.nav{
+   width:100%;
+   height:36px;
+   background:url("images/nav.gif");   
+}
+.itemcontainer{width:90%; margin-left:auto; margin-right:auto; height:100%; padding-top:6px;}
+a{text-decoration:none; color:black;}
+
+footer{width:100%; background:#87bd81;}
+footer li{float: left;
+    margin-right: 29px;
+    margin-top: 17px;}
+.pp5{margin-top:10px;}
+.textwidget{text-align:center;}
+
+.swiper-slide .title{font-size:17px;}
+.branh_table{width:600px;}

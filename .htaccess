@@ -1,0 +1,37 @@
+#php_flag default_socket_timeout 1
+#php_value register_globals 0
+#php_flag display_startup_errors off
+#php_flag display_errors off
+#php_flag html_errors off
+#php_value docref_root 1
+#php_value docref_ext 1
+#php_value error_reporting 256
+#php_value error_reporting 1
+#php_flag  log_errors on
+#php_value error_log  /var/logs/php_error_logs/bet770_mobi.log
+#php_flag magic_quotes_gpc off
+#php_value session.cookie_domain ".betfirst.be"
+#php_value session.use_only_cookies 1
+#php_value session.use_trans_sid 0
+
+RewriteCond %{QUERY_STRING} ^PHPSESSID=.*$
+RewriteRule ^(.*)$ %{REQUEST_URI}? [L,R=301]
+
+#Order Allow,Allow
+#Deny from all
+#Allow from 217.41.34.61 217.45.165.129 83.236.199.98
+
+Options +FollowSymLinks
+
+RewriteEngine on
+RewriteRule ^robots.txt robots.php
+RewriteCond %{HTTP_HOST} ^www.hjtenger.co.uk/Ginsen/ [NC]
+RewriteRule ^(.*)$ http://www.hjtenger.co.uk/Ginsen/index.php/$1 [R=301,L]
+RewriteBase /home/hjteng5/public_html/Ginsen/
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ /index.php/$1 [QSA,L]

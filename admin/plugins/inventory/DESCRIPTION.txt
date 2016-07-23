@@ -1,0 +1,3 @@
+Plugin Turboshop 
+v. 0.1
+This Turboshop plugin is build for gimo CMS

@@ -1,0 +1,53 @@
+/*global style*/
+.error{border:solid 1px red;}
+li{list-style:none;}
+.error_list{color:red;}
+/*end global style*/
+
+/*rewrite jQuery ui*/
+#ui-datepicker-div{z-index:54 !important;}
+
+
+.page_wrapper{margin-left: auto; margin-right: auto; width: 1019px; padding-top:10px; padding-bottom:10px; text-align: justify;}
+.page_wrapper .page_title{text-align: left; font-size:19px;}
+.page_wrapper .cen{text-align: center;}
+.page_wrapper .le{text-align: left;}
+.page_wrapper .ri{text-align: right;}
+.page_wrapper .section{background-color: white; border: 1px solid black; border-radius: 3px 3px 3px 3px; box-shadow: 2px 2px 2px; margin-bottom: 10px; margin-top: 19px; padding: 10px; margin-left: auto; margin-right: auto;}
+.page_wrapper .section.shor{width:600px;}
+.page_wrapper .section .section_title{font-size: 21px; font-weight: bold; padding-bottom: 6px;}
+.page_wrapper .section .branh_table th{font-size:15px; padding-bottom:5px;}
+.page_wrapper .section .branh_table.short{width:67%;}
+.page_wrapper .section .branh_table.short2{width:519px; margin-left:auto; margin-right:auto;}
+.page_wrapper .section .branh_table.short2 th{font-size:18px;}
+.short td,.short2 td{width:50%;}
+.page_wrapper .section .branh_table .st{font-weight:bold;}
+
+
+/*style for login page*/
+.login_table{width:415px; margin-left:auto; margin-right:auto;}
+.login_table td{padding:10px 0;}
+.login_table input[type=submit],.short2 input[type=submit]{float:none; display:inline-block;}
+.short2 select{width:198px;  border-top-color: #B3B35D; border-left-color: #B3B35D; background: none repeat scroll 0 0 #DDF2D2;   border-style: solid; border-width: 1px; padding: 5px 3px 3px 5px;}
+.short2 td{padding:5px 0;}
+.short2.tab_left {margin-left:0 !important; float:left;}
+/*end style for login page*/
+#service_description{float:left; min-width:200px; height:143px;}
+
+.lay{width:100%; height:100%; position:fixed; background-color:rgba(200,200,200,0.5); top:0; left:0; display:none; z-index:1000;}
+#loader{width:100%; position:fixed; top:40%; text-align:center; display:none;}
+
+.content_wraper{float:left; width:14%; border-right:solid 1px gray;}
+.content_wraper:last-child{border-right:none;}
+.content_wraper .title{text-align:center; font-weight:bold;}
+.content_wraper .time{text-align:center;}
+.content_wraper .time.delete{color:red; text-decoration:line-through;}
+.swiper-container, .swiper-slide {
+  width: 900px;
+  height:526px;
+}
+
+.controll_pannel{text-align:center; margin-top:47px;}
+[data-app_date]{cursor:pointer;}
+
+	

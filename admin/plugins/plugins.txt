@@ -1,0 +1,4 @@
+[staff]=1
+[inventory]=1
+[reception]=1
+[administrator]=1

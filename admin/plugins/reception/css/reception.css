@@ -1,0 +1,39 @@
+.lay{width:100%; height:100%; background-color:rgba(200,200,200,0.5); position:fixed; top:0px; left:0px; z-index:10; display:none;}
+.form_wrapper{background-color:white; border-radius:5px; box-shadow:2px 2px 2px; position:absolute;z-index:11; border:solid 1px; top:0; left:0; display:none; min-width:200px; min-height:200px;}
+.form_wrapper .content_wrapper{padding:5px;}
+.form_wrapper .client_info{text-align:left; margin-bottom:7px;}
+#ordered_item{margin-right:28px;}
+#ordered_item th{border: 1px solid gray;padding: 1px}
+#result_container{text-align:right; padding-right: 29px; font-size: 15px; font-weight:bold;}
+.small_text{font-size:8px;}
+.box{background-color: beige;
+    border: 1px solid rgba(200, 200, 100, 0.5);
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 10px;
+    padding: 5px;}
+#form_wrapper2 .row{margin-top:0px;}
+#form_wrapper2 .content{float:left;}
+#form_wrapper2 .content table th,#form_wrapper2 .content table td{padding:5px;}
+#form_wrapper2 .content table td{text-align:center;}
+.top_title{background: #fcfff4; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfff4), color-stop(40%,#dfe5d7), color-stop(100%,#b3bead)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+text-align:right;
+border-radius:8px 8px 0 0;
+}
+.top_title .close_btn{ background-color: gray;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    height: 19px;
+    padding: 10px;
+    width: 15px;
+	border-radius:0 4px 0 0;
+}
+.top_title .close_btn:hover{background-color: green;}

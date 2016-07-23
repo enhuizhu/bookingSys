@@ -1,0 +1,5 @@
+.s_error{border:solid 1px red !important;}
+table.schedule th{text-align:center; font-size:18px;}
+table.schedule td{border:solid 1px gray;}
+table.schedule td.ce{text-align:center;}
+table.schedule td.pad{padding:5px 0;}
